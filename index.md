@@ -115,7 +115,7 @@
 
 了解更多故事請訪問 <a href="http://www.gs2012.com" target="_blank"> www.gs2012.com </a>
 
-
+ 
 
 {% endcapture %}
 {% include template.html %}
