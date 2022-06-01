@@ -12,18 +12,3 @@ google_analytics:
 github:
   is_project_page: false
   
-#多语言设置
-lang:
-  zh-CN:
-    contentDir: content/cn
-    languageName: 简体中文
-    title: 神眼堪舆明师
-    description: 风水改命-阴宅-阳宅-禅定培训-驻颜术-健康管理
-      
-  zh-TW:
-    contentDir: content/tw
-    languageName: 繁體中文
-    title: 神眼堪輿明師
-    description: 風水改命-陰宅-陽宅-禪定培訓-駐顏術-健康管理
-   
-
