@@ -21,7 +21,16 @@
           {% endif %}
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }} | <a href={{ site.baseUrl}} title=简体 aria-label=简体>简体</a></h1>
-         
+          <ul class="nav nav-tabs">
+            {% if site.lang == 'zh-CN' %}
+            <li role="presentation"><a href="/">中文简体</a></li>
+            <li class='active' role="presentation"><a href="/cn">中文繁体</a></li>
+            {% else %}
+            <li class='active' role="presentation"><a href="/">中文简体</a></li>
+            <li role="presentation"><a href="/cn">中文繁体</a></li>
+            {% endif %}
+            <li class='pull-right' role="presentation"><a href="https://github.com/liaohuqiu/jekyll-multiple-languages-sample/tree/master">GitHub</a></li>
+        </ul>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           
           {% if site.show_downloads %}
