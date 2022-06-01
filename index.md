@@ -118,4 +118,4 @@
 
 
 {% endcapture %}
-{% layout default.html %}
+{% include template.html %}
