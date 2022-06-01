@@ -21,10 +21,8 @@
           {% endif %}
           
           
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }} | 
-             
-          <a href="/" title=繁体 aria-label=繁体>繁体</a></h1>
-         
+          <h1 id="project_title">{{ site.title | default: site.github.repository_name }} 
+         | <a href={{ site.baseUrl}} title=简体 aria-label=简体>简体</a></h1>
   
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           
