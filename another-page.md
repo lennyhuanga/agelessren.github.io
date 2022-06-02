@@ -1,6 +1,6 @@
 ---
 layout: default
-lang:china
+lang: china
 ---
 
 ## Welcome to another page
