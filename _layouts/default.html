@@ -19,17 +19,9 @@
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
-          {{ site.github.repository_url }}
-          <a id="forkme_banner" href=" {{ site.github.repository_url }}/tc.md">View on GitHub</a>
+          <a id="forkme_banner" href=" {{ site.github.repository_url }}/tc.html">中文繁体</a>
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          |<a href="/tc">中文</a>
-           {% if page.language == 'cn' %}
-           aa
-            <li class='active' role="presentation"><a href="/cn">中文</a></li>
-            {% else %}
-            <li class='active' role="presentation"><a href="/">繁体</a></li>
-            <li role="presentation"><a href="/cn">简体</a></li>
-            {% endif %}
+        
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
