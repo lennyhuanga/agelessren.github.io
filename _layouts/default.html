@@ -19,7 +19,8 @@
           {% if site.github.is_project_page %}
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
-          {{ site.url }}
+          {{ site.url }}||
+          {{ '/tc.html' | append: site.github.build_revision | relative_url }}
            <a id="aaaa" href="{{ '/'}}">中文简体</a>
            <a id="forkme_banner" href="{{ site.url }}/tc.html">中文繁体</a>
           
