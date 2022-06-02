@@ -1,6 +1,6 @@
 {% capture cn-content %}
 ## 格局上医
-[Link to another page](./tc.html).
+[Link to another page](./another-page.html).
 风水体系，有道法术器四个层面，只懂道法，不懂术器。通过佛眼（或神眼但不是天眼）来看风水，不用罗盘，不懂易经，所以不算命。
 
 什么是道、法的层面？改变命运从因不从果，从果上改变叫逆天，后患无穷；从因上改变叫顺天，功德无量。
